@@ -57,5 +57,5 @@ Develop a unified and reproducible framework for GRN inference that combines:
 2. **Attention regularization with biological priors**: Loss term nudging attention weights toward known TF→target likelihoods (e.g., motif presence).
 3. **Edge-level Dirichlet calibration**: Models dependencies among outgoing edges from the same regulator, beyond independent scaling.
 
-## LICENSE
+## License
 This project is licensed under the MIT License.

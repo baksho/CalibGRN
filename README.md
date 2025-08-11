@@ -3,7 +3,7 @@
 **CalibGRN** is a research framework for **Gene Regulatory Network (GRN) inference** using **Calibrated Transformer models**.  
 It supports both supervised and unsupervised workflows, integrates baseline methods, and adds novel calibration and attention regularization techniques for more reliable biological network predictions.
 
----
+
 
 ## Features
 - Synthetic & real GRN datasets (DREAM4, DREAM5, etc.)
@@ -16,14 +16,14 @@ It supports both supervised and unsupervised workflows, integrates baseline meth
 - Unified evaluation: AUROC, AUPR, ECE, reliability diagrams
 - Open-source Python package for reproducibility
 
----
+
 
 ## Installation
 ```bash
 git clone https://github.com/yourusername/calibgrn.git
 cd calibgrn
 pip install -e .
-
+```
 
 ## Project Structure
 calibgrn/         # Main package source

@@ -26,13 +26,14 @@ pip install -e .
 ```
 
 ## Project Structure
+```
 calibgrn/         # Main package source
 notebooks/        # Experiment notebooks
 tests/            # Unit tests
 setup_env.py      # Environment setup helper
 requirements.txt  # Dependencies
 setup.py          # Install script
-
+```
 
 **Goal**
 Develop a unified and reproducible framework for GRN inference that combines:

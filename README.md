@@ -44,13 +44,13 @@ Develop a unified and reproducible framework for GRN inference that combines:
 - Biological prior regularization for interpretability
 
 **Milestones**
-- [X] Milestone 1: Baseline implementations (ARACNE, Pearson, TIGRESS, GENIE3, GRNBoost2)
-- [] Milestone 2: Prototype Transformer model for GRN inference
-- [] Milestone 3: Calibration methods (Temperature Scaling, Edge-level Dirichlet Calibration)
-- [] Milestone 4: Attention regularization with biological priors
-- [] Milestone 5: Ablation studies on synthetic data
-- [] Milestone 6: Transfer to real-world datasets (DREAM4, DREAM5)
-- [] Milestone 7: Final evaluation and comparison against baselines
+- [x] Milestone 1: Baseline implementations (ARACNE, Pearson, TIGRESS, GENIE3, GRNBoost2)
+- [ ] Milestone 2: Prototype Transformer model for GRN inference
+- [ ] Milestone 3: Calibration methods (Temperature Scaling, Edge-level Dirichlet Calibration)
+- [ ] Milestone 4: Attention regularization with biological priors
+- [ ] Milestone 5: Ablation studies on synthetic data
+- [ ] Milestone 6: Transfer to real-world datasets (DREAM4, DREAM5)
+- [ ] Milestone 7: Final evaluation and comparison against baselines
 
 **Novel Contributions**
 1. **Calibration-aware training loss**: Combines BCE with a differentiable calibration penalty (e.g., soft ECE surrogate) to improve both accuracy and calibration.

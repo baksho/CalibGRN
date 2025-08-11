@@ -36,6 +36,7 @@ setup.py          # Install script
 ```
 
 **Goal**
+
 Develop a unified and reproducible framework for GRN inference that combines:
 - Baseline algorithms for benchmarking
 - Transformer architectures for improved sequence/context modeling
@@ -43,7 +44,7 @@ Develop a unified and reproducible framework for GRN inference that combines:
 - Biological prior regularization for interpretability
 
 **Milestones**
-- [] Milestone 1: Baseline implementations (ARACNE, Pearson, TIGRESS, GENIE3, GRNBoost2)
+- [X] Milestone 1: Baseline implementations (ARACNE, Pearson, TIGRESS, GENIE3, GRNBoost2)
 - [] Milestone 2: Prototype Transformer model for GRN inference
 - [] Milestone 3: Calibration methods (Temperature Scaling, Edge-level Dirichlet Calibration)
 - [] Milestone 4: Attention regularization with biological priors
